@@ -30,6 +30,7 @@ public class SquareEquation
             solution[0] = -(b + Math.Sign(b) * Math.Sqrt(d)) / 2;
             solution[1] = c / solution[0];
         }
+        
         return solution;
     }
 }
