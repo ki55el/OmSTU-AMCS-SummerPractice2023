@@ -15,6 +15,7 @@ public class SquareEquation
         {
             throw new ArgumentException();
         }
+        
         b = b / a; c = c / a;
         double d = b * b - 4 * c;
 
