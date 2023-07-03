@@ -23,4 +23,4 @@ jobs:
         run: dotnet build SquareEquationLib --no-restore /p:ContinuousIntegrationBuild=true
 
       - name: Test
-        run: ./SquareEquationTest ./SquareEquationLib/bin/Debug/net7.0/SquareEquationLib.dll
+        run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
