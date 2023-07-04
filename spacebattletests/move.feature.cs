@@ -28,7 +28,7 @@ namespace spacebattletests
         
         private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
         
-#line 1 "test.feature"
+#line 1 "move.feature"
 #line hidden
         
         public КосмическийБойFeature(КосмическийБойFeature.FixtureData fixtureData, spacebattletests_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
